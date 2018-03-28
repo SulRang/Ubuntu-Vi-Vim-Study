@@ -3,13 +3,23 @@ ls -al
 ls -al | more
 ls -al | less
 
-cd [경로]
+cd [path]
 	~/$HOME 	HOME
 	/		ROOT
 	/etc		ROOT->etc
 
-cat [경로] > [파일명]
+cat [path] > [NAME]	[path] filelist move to [NAME]
 
-mkdir [NAME]
+mkdir [NAME]	(make directory named by [NAME])
 
 pwd (print working directory)
+
+
+rmdir	(remove directory)
+	option:
+		-p .. & . remove (if .. directory empty)
+
+rm	(remove)
+	option:
+		-r remove (even directory is not empty)
+
